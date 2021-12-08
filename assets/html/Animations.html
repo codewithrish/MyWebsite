@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+<head>
+	<title>Animations</title>
+	<link rel="stylesheet" type="text/css" href="../../assets/styles/Animations.css">
+	
+	<script>
+		function like(){
+			if(typeof(Storage) !== "undefined") {
+			if (localStorage.count) {
+				localStorage.count = Number(localStorage.count)+1;
+			} else {
+				localStorage.count = 1;
+			}
+			document.getElementById("result").innerHTML = "Likes " + localStorage.count;
+			} else {
+				document.getElementById("result").innerHTML = "Sorry, your browser does not support web storage...";
+			}
+		}
+		
+		function makeVisible(){
+			document.getElementById('cmntbox').style.display = "block";
+		}
+	</script>
+	
+</head>
+<body>
+	</div>
+		<p class="ttl" style="background-color:rgba(165,42,42,0.8); background-opacity:0.4;"><a href="frameHome.html" target="myiframe" style="text-decoration:none;color:white">Animations Window</a></p>
+		<iframe class="window" name="myiframe" src="frameHome.html" onselectstart="return false"></iframe>
+	</div>
+	
+	<div id="shade">
+		<div class="menu" onselectstart="return false">
+			<ul id="animelist">
+				<li style="border:2px solid black;background-color:orange;"><a style="color:black;" href="../../index.html">HOME</a></li>
+				<li><a href="Animation1.html" target="myiframe">Animation 1<a></a></li>
+				<li><a href="Animation2.html" target="myiframe">Animation 2<a></li>
+				<li><a href="Animation3.html" target="myiframe">Animation 3<a></li>
+				<li><a href="Animation4.html" target="myiframe">Animation 4<a></li>
+				<li><a href="Animation5.html" target="myiframe">Animation 5<a></li>
+				<li><a href="Animation6.html" target="myiframe">Animation 6<a></li>
+				
+			</ul>
+		</div>
+		
+
+		
+		
+		</div>
+	<div class="like_comment">
+	
+		<div onselectstart="return false" style="background-color:#006699;border-radius:30% ;text-align:center;width:146px; margin-left:60px; margin-top:60px">
+				<p class="lc" onclick="like()">Like</p>
+		</div>
+		
+		<div id="result" style="font-family:verdana;color:white;background-color:#006699;padding:4px;border:2px solid black;border-radius:15%;position:absolute;margin-left:100px;">
+			<script>  document.write("Likes "+localStorage.count);
+			</script>
+		</div>
+		
+		<div onselectstart="return false" style="background-color:#006699;text-align:center; border-radius:30% ;width:146px; margin-left:60px;margin-top:80px;">
+				<p class="lc" onclick="makeVisible()">Comment</p>
+				<iframe id="cmntbox" src="../html/comments.html" style="display:none" class="cmnt" name="CommenT" onselectstart="return false">
+				</iframe>
+		
+		</div>
+	</div>
+</body>
+</html>

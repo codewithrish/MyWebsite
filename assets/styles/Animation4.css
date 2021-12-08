@@ -1,0 +1,135 @@
+body{
+height:450px;
+background-color:#006699	;
+}
+#center{
+	position: absolute;
+	width:500px;
+	height:500px;
+	left:28%;
+	top:3px;
+	background-color:rgba(0,0,0,0);
+	
+}
+#click{
+	margin-left:15px;
+	font-size:30px;
+	font-family:Comic Sans MS;
+}
+#box1{
+	width:100px;	
+	height:100px;
+	background-color:rgba(0,0,0,0.4);
+	position:absolute;
+	border:1px solid white;
+	left:100px;
+	top:100px;
+}
+#box2{
+	width:100px;
+	height:100px;
+	background-color:rgba(0,0,0,0.4);
+	position:absolute;
+	border:1px solid white;
+	left:200px;
+	top:100px;
+}
+#box3{
+	width:100px;
+	height:100px;
+	background-color:rgba(0,0,0,0.4);
+	position:absolute;
+	border:1px solid white;
+	left:300px;
+	top:100px;
+}
+#box4{
+	width:100px;
+	height:100px;
+	background-color:rgba(0,0,0,0.4);
+	position:absolute;
+	border:1px solid white;
+	left:100px;
+	top:200px;
+}
+#box5{
+	width:100px;
+	height:100px;
+	background-color:white;
+	position:absolute;
+	border:1px solid white;
+	left:200px;
+	top:200px
+}
+#box6{
+	width:100px;
+	height:100px;
+	background-color:rgba(0,0,0,0.4);
+	position:absolute;
+	border:1px solid white;
+	left:300px;
+	top:200px;
+}
+#box7{
+	width:100px;
+	height:100px;
+	background-color:rgba(0,0,0,0.4);
+	position:absolute;
+	border:1px solid white;
+	left:100px;
+	top:300px;
+}
+#box8{
+	width:100px;
+	height:100px;
+	background-color:rgba(0,0,0,0.4);
+	position:absolute;
+	border:1px solid white;
+	left:200px;
+	top:300px;
+}
+#box9{
+	width:100px;
+	height:100px;
+	background-color:rgba(0,0,0,0.4);
+	position:absolute;
+	border:1px solid white;
+	left:300px;
+	top:300px;
+}
+#box10{
+	width:100px;
+	height:100px;
+	background-color:rgba(0,0,0,0.4);
+	position:absolute;
+	border:1px solid white;
+	left:200px;
+	top:00px;
+}
+#box11{
+	width:100px;
+	height:100px;
+	background-color:rgba(0,0,0,0.4);
+	position:absolute;
+	border:1px solid white;
+	left:400px;
+	top:200px;
+}
+#box12{
+	width:100px;
+	height:100px;
+	background-color:rgba(0,0,0,0.4);
+	position:absolute;
+	border:1px solid white;
+	left:200px;
+	top:400px;
+}
+#box13{
+	width:100px;
+	height:100px;
+	background-color:rgba(0,0,0,0.4);
+	position:absolute;
+	border:1px solid white;
+	left:00px;
+	top:200px;
+}

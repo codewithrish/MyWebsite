@@ -1,0 +1,33 @@
+div ~ span {
+  display: inline-block;
+  margin-right: -5px;
+}
+
+div {
+  background-color:purple;
+  height:364px;
+  padding: 5rem 0;
+  text-align: center;
+}
+
+h1, h2 {
+  color: #fff;
+  font-family: helvetica, arial;
+  padding: 1rem 0;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 1.65rem;
+}
+
+.blast {
+  opacity: 0;
+}
+
+.blast-root {
+  opacity: 1;
+}

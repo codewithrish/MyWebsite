@@ -1,0 +1,15 @@
+<!doctype html>
+<html>
+	<head>
+		<script src="../scripts/comments.js"></script>
+	</head>
+	<body style="margin:0;padding:0;">
+		<input id="myText" style="width:100%;position:fixed;" type="text" name="FirstName" placeholder="Enter Your Comment" onkeydown="comment(this)"> 		
+		</br>
+		<div id="allcomments"style="font-family:verdana;color:white;padding:10px;margin-top:5px;margin-left:1px;width:98%;height:auto;background-color:#1ab2ff">
+			
+			<script>  document.write(localStorage.comment);
+			</script>
+		</div>
+	</body>
+</html>

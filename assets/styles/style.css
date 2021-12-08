@@ -1,0 +1,179 @@
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+	margin:0;
+}
+div#wrapper{
+	background-image:url("../images/home.jpg");
+	width:100%;
+	height:768px;
+}
+div#banner{
+	width:100%;
+	height:65px;
+	position:fixed;
+	top: 0;
+	background-color:rgba(0,0,0,0.4);
+}
+div#banner ul{
+	list-style:none;
+}
+div#banner ul li a{
+	float:left;
+	text-decoration:none;
+	color:white;
+	padding:0px 40px;
+	text-align:center;
+	line-height:35px;
+	height:35px;
+}
+
+div#banner ul li a:hover{
+	background-color:white;
+	color:black;
+	border-radius:8px;
+}
+div#banner ul li a.active{
+	background-color:white;
+	border-radius:8px;
+	color:black;
+}
+
+div#hello{
+	width:1000px;
+	position:absolute;
+	left:35%;
+	top:200px;
+	transform:rotate(-7deg);
+}
+div#aboutme{
+	background-color:#232a32;
+	background-image:url("../images/aboutme.jpg");
+	width:100%;
+	height:768px;
+	margin:0;
+	top:0;
+}
+div#hobbies{
+	background-image:url("../images/hobby.png");
+	width:100%;
+	height:768px;
+	margin:0;
+	top:0;
+}
+div#skills{
+	background-image:url("../images/skills.jpg");
+	width:100%;
+	height:660px;
+	margin:0;
+	top:0;
+}
+div#projects{
+	background-color:#3f6c45;
+	width:100%;
+	height:768px;
+	margin:0;
+	top:0;
+}
+div#contacts{
+	background-color:#283655;
+	width:100%;
+	height:640px;
+	margin:0;
+	top:0;
+}
+p{
+	margin:0;
+}
+h1#about{
+	text-align:center;
+	margin:0;
+	padding:30px;
+	font-size:70px;
+	font-family:comic snas MS;
+	color:white;
+	cursor:default;
+}
+h1#hobbie{
+	text-align:center;
+	margin:0;
+	padding:30px;
+	font-size:70px;
+	font-family:comic snas MS;
+	color:#ffffcc;
+	cursor:default;
+	
+}
+h1#skill{
+	text-align:center;
+	margin:0;
+	padding:30px;
+	font-size:70px;
+	font-family:comic snas MS;
+	color:white;
+	cursor:default;
+}
+h1#project{
+	text-align:center;
+	margin:0;
+	padding:30px;
+	font-size:70px;
+	font-family:comic snas MS;
+	color:white;
+	cursor:default;
+}
+h1#contact{
+	text-align:center;
+	margin:0;
+	padding:30px;
+	font-size:70px;
+	font-family:comic snas MS;
+	color:white;
+	cursor:default;
+}
+#mypic{
+	border-radius:800px;
+	margin-left:90px;
+	margin-top:35px;
+	width:400px;
+	height:400px;
+	filter:grayscale(1);
+}
+#hobby_list{
+	background-color:rgba(0,0,0,0.4)
+}
+.hobbylist{
+	color:#ffffcc;
+	font-family:comic sans MS;
+	font-size:35px;
+	margin-left:800px;
+}
+#connect{
+	background-color:rgba(0,0,0,0.4);
+	text-align:center;
+}
+#skills_list{
+	background-color:rgba(0,0,0,0.4)
+}
+.skillslist{
+	color:#FFF;
+	font-family:comic sans MS;
+	font-size:50px;
+	margin-left:400px;
+	margin-top:40px;
+}
+#connect{
+	background-color:rgba(0,0,0,0.4);
+	text-align:center;
+}
+.conn{
+	color:#ffffcc;
+	font-family:arial;
+	font-size:35px;
+	margin-left:800px;
+	text-decoration:none;
+	list-style-type: none;
+}
+.conn:hover{
+	color:blue;
+}

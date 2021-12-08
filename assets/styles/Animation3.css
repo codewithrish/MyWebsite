@@ -1,0 +1,161 @@
+@keyframes ball_anime{
+	0% { transform: rotate(-45deg) translateX(150px) rotate(45deg); }
+    50%  { transform: rotate(45deg) translateX(-150px) rotate(-45deg); }
+	100% { transform: rotate(-45deg) translateX(150px) rotate(45deg); }
+	}	
+div.balls {
+	width: 15px;
+	height: 15px;
+	background-color: white;
+	border-radius: 30px;
+	animation: infinite;
+	/*transform-style:preserve-3d;*/
+	 background: radial-gradient(circle at 100px 100px, #5cabff, #000);
+	}
+#ball1{
+	position:absolute;
+	top:110px;
+	left:50%;
+	animation-duration: 1s;
+	-webkit-animation-name: ball_anime;
+	
+	}
+#ball2{
+	position:absolute;
+	top:130px;
+	left:50%;
+	animation-duration: 1.01s;
+	-webkit-animation-name: ball_anime;
+	
+	}
+#ball3{
+	position:absolute;
+	top:150px;
+	left:50%;
+	animation-duration: 1.02s;
+	-webkit-animation-name: ball_anime;
+	
+	}
+#ball4{
+	position:absolute;
+	top:170px;
+	left:50%;
+	animation-duration: 1.03s;
+	-webkit-animation-name: ball_anime;
+	
+	}
+#ball5{
+	position:absolute;
+	top:190px;
+	left:50%;
+	animation-duration: 1.04s;
+	-webkit-animation-name: ball_anime;
+	
+	}
+#ball6{
+	position:absolute;
+	top:210px;
+	left:50%;
+	animation-duration: 1.05s;
+	-webkit-animation-name: ball_anime;
+	
+	}
+#ball7{
+	position:absolute;
+	top:230px;
+	left:50%;
+	animation-duration: 1.06s;
+	-webkit-animation-name: ball_anime;
+	
+	}
+#ball8{
+	position:absolute;
+	top:250px;
+	left:50%;
+	animation-duration: 1.07s;
+	-webkit-animation-name: ball_anime;
+	}
+	#ball9{
+	position:absolute;
+	top:270px;
+	left:50%;
+	animation-duration: 1.08s;
+	-webkit-animation-name: ball_anime;
+	
+	}
+	#ball10{
+	position:absolute;
+	top:290px;
+	left:50%;
+	animation-duration: 1.09s;
+	-webkit-animation-name: ball_anime;
+	
+	}
+	#ball11{
+	position:absolute;
+	top:310px;
+	left:50%;
+	animation-duration: 1.10s;
+	-webkit-animation-name: ball_anime;
+	
+	}
+	#ball12{
+	position:absolute;
+	top:330px;
+	left:50%;
+	animation-duration: 1.11s;
+	-webkit-animation-name: ball_anime;
+	
+	}
+	#ball13{
+	position:absolute;
+	top:350px;
+	left:50%;
+	animation-duration: 1.12s;
+	-webkit-animation-name: ball_anime;
+	
+	}
+	#ball14{
+	position:absolute;
+	top:370px;
+	left:50%;
+	animation-duration: 1.13s;
+	-webkit-animation-name: ball_anime;
+	
+	}
+	#ball15{
+	position:absolute;
+	top:390px;
+	left:50%;
+	animation-duration: 1.14s;
+	-webkit-animation-name: ball_anime;
+	
+	}
+	#ball16{
+	position:absolute;
+	top:410px;
+	left:50%;
+	animation-duration: 1.15s;
+	-webkit-animation-name: ball_anime;
+	
+	}
+	#ball17{
+	position:absolute;
+	top:430px;
+	left:50%;
+	animation-duration: 1.16s;
+	-webkit-animation-name: ball_anime;
+	
+	}
+	#ball18{
+	position:absolute;
+	top:445px;
+	left:50%;
+	animation-duration: 1.17s;
+	-webkit-animation-name: ball_anime;
+	}
+body{	
+	width:100%;
+	height:auto%;
+	background-color:white;
+	overflow-x:hidden;
